@@ -1,0 +1,18 @@
+{
+  "name": "studymate-thpt",
+  "version": "1.1.0",
+  "private": true,
+  "description": "StudyMate: website hỗ trợ học tập dành cho học sinh THPT",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
